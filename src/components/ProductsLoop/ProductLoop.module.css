@@ -1,0 +1,31 @@
+.wrap {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 30px;
+  list-style-type: none;
+}
+
+.loop {
+  min-height: 350px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 20px;
+  list-style-type: none;
+  background-color: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 20px 0;
+  box-shadow: 1px 4px 4px 1px #999;
+  align-items: start;
+  align-content: start;
+}
+
+.headProduct {
+  display: grid;
+  text-decoration: underline;
+  font-size: 13px;
+  grid-template-columns: 1fr 3fr 1fr 1fr 1fr;
+  justify-content: start;
+  align-items: center;
+  color: #333;  
+}
